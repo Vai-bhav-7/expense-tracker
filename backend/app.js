@@ -17,7 +17,8 @@ const port = process.env.PORT;
 connectDB();
 
 const allowedOrigins = [
-  "http://localhost:3000",
+  "https://expense-tracker-pearl-five.vercel.app",
+  "http://localhost:3000"
   // add more origins as needed
 ];
 
