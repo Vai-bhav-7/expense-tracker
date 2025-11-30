@@ -1,5 +1,5 @@
 
-const host = "http://localhost:5000";
+const host = process.env.REACT_APP_API_URL;
 
 export const setAvatarAPI = `${host}/api/auth/setAvatar`;
 export const registerAPI = `${host}/api/auth/register`;
